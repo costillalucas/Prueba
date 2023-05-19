@@ -1,0 +1,148 @@
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-body {
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    background: #20254b;
+    color: aliceblue;
+    display: grid;
+    padding: 40px;
+    justify-content: space-evenly;
+    max-width: 1200px;
+}
+}
+
+.container-footer-all {
+    width: 100%;
+    margin: auto;
+}
+
+.column1 {
+    max-width: 400px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+.column1 h1 {
+    font-size: 22px;
+    justify-content: center;
+}
+
+.column1 p {
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.column2 {
+    max-width: 400px;
+}
+
+.column2 h1 {
+    font-size: 22px;
+    justify-content: center;
+}
+
+.row {
+    margin-top: 30px;
+    display: flex;
+}
+
+.row img {
+    width: 36px;
+    height: 36px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #c7c7c7;
+}
+
+.column3 {
+    max-width: 400px;
+}
+
+.column3 h1 {
+    font-size: 22px;
+    justify-content: center;
+
+}
+
+.row2 {
+    margin-top: 30px;
+    display: flex;
+    max-width: 300px;
+}
+
+.row2 label {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #c7c7c7;
+}
+
+.row2 img {
+    width: 36px;
+    height: 36px;
+}
+
+.column4 {
+    max-width: 400px;
+    justify-content: space-around;
+}
+
+.column4 h1 {
+    font-size: 22px;
+}
+
+.row3 {
+    margin-top: 0px;
+    display: flex;
+    max-width: 300px;
+}
+
+.row3 label {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #c7c7c7;
+}
+
+.row3 img {
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+}
+.row4 {
+    margin-top: 20px;
+    display: flex;
+    max-width: 300px;
+    padding-left: 0px;
+    justify-content: center;
+}
+
+.container-footer {
+    width: 100%;
+    background-color: #101010;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    color: wheat;
+    max-width: 1200px;
+}
+
+.copyright {
+    color: gray;
+}
+
+.container-body: after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%
+}
